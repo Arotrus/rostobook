@@ -1,9 +1,227 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+ 	<meta charset="UTF-8">
+	<title>Rostobook - Faça Login ou Sign In!</title>
 </head>
 <body>
+	<div class="nav-bar">
+		<h1>
+			<a href="#" title="Vá para a página principal">
+				<i>
+					<u>Rostobook Logo</u>
+				</i>
+			</a>
+		</h1>
+		<div class="menu-login">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<label>Email</label>
+					</td>
+					<td>
+						<label>Senha</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="email" class="inputtext" name="email">
+					</td>
+					<td>
+						<input type="password" class="inputtext" name="password">
+					</td>
+					<td>
+						<input type="submit" value="Entrar">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="persistent" id="persist-box">
+						<label for="persist-box">Mantenha-me logado</label>
+					</td>
+					<td>
+						<a href="#">Esqueci minha senha?</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
 
+	<div class="rob_content">
+		<div style="background: #edf0f5">
+			<div class="details">
+				<h2>Conecte com seus amigos e o mundo com o Rostobook</h2>
+				<img src="images/feed.png"/>
+				<p><strong>Veja fotos e atualizações</strong> de amigos na página inicial.</p>
+				<img src="images/share.png"/>
+				<p><strong>Compartilhe</strong> coisas da sua vida na sua linha do tempo.</p>
+				<img src="images/find_more.png"/>
+				<p><strong>Descubra mais</strong> do que você está procurando com a pesquisa do Rostobook.</p>	
+			</div>
+
+			<div class="sign-up-upper-part">
+				<h2>Entre agora!</h2>
+				<p>É de graça e sempre irá ser.</p>
+				<form>
+					Nome<br>
+					<input type="text" name="firstname" aria-label="Nome"><br>
+					Sobrenome<br>
+					<input type="text" name="lastname" aria-label="Sobrenome"><br>
+					Email<br>
+					<input type="text" name="email" aria-label="Email"><br>
+					Confirme seu email<br>
+					<input type="text" name="email" aria-label="Email novamente"><br>
+					Nova senha<br>
+					<input type="password" name="password" aria-label="Nova senha"><br>
+				</form>
+			</div>
+			<div class="sign-up-lower-part">
+				<div class="lower-birthday">Data de Nascimento</div>
+				<span class="selectors">
+
+				<select class="days">
+					  <option value="day">Dia</option>
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					  <option value="6">6</option>
+					  <option value="7">7</option>
+					  <option value="8">8</option>
+					  <option value="9">9</option>
+					  <option value="10">10</option>
+					  <option value="11">11</option>
+					  <option value="12">12</option>
+					  <option value="13">13</option>
+					  <option value="14">14</option>
+					  <option value="15">15</option>
+					  <option value="16">16</option>
+					  <option value="17">17</option>
+					  <option value="18">18</option>
+					  <option value="19">19</option>
+					  <option value="20">20</option>
+					  <option value="21">21</option>
+					  <option value="22">22</option>
+					  <option value="23">23</option>
+					  <option value="24">24</option>
+					  <option value="25">25</option>
+					  <option value="26">25</option>
+					  <option value="27">27</option>
+					  <option value="28">28</option>
+					  <option value="29">29</option>
+					  <option value="30">30</option>
+					  <option value="31">31</option>
+					</select>
+
+					<select class="months">
+					  <option value="month">Mês</option>
+					  <option value="jan">Jan</option>
+					  <option value="fev">Fev</option>
+					  <option value="mar">Mar</option>
+					  <option value="abr">Abr</option>
+					  <option value="mai">Mai</option>
+					  <option value="jun">Jun</option>
+					  <option value="jul">Jul</option>
+					  <option value="ago">Ago</option>
+					 	<option value="set">Set</option>
+					 	<option value="out">Out</option>
+					 	<option value="nov">Nov</option>
+					 	<option value="dez">Dez</option>
+					</select>
+
+					<select class="years">
+						<option value="year">Ano</option>
+					  <option value="1995">1995</option>
+					  <option value="1996">1996</option>
+					  <option value="1997">1997</option>
+					  <option value="1998">1998</option>
+					  <option value="1999">1999</option>
+					  <option value="2000">2000</option>
+					  <option value="2001">2001</option>
+					  <option value="2002">2002</option>
+					  <option value="2003">2003</option>
+					  <option value="2004">2004</option>
+					  <option value="2005">2005</option>
+					  <option value="2006">2006</option>
+					  <option value="2007">2007</option>
+					  <option value="2008">2008</option>
+					  <option value="2009">2009</option>
+					  <option value="2010">2010</option>
+					  <option value="2011">2011</option>
+					  <option value="2012">2012</option>
+					  <option value="2013">2013</option>
+					  <option value="2014">2014</option>
+					  <option value="2015">2015</option>
+					  <option value="2016">2016</option>
+					</select>
+				</span>
+			<a href="#">Porque preciso fornecer minha data de nascimento?</a>
+			<br>
+			<span class="choose-sex">
+				<input type="radio" name="sex" value="1">
+				<label class="choose-sex">Feminino</label>
+				<input type="radio" name="sex" value="2">
+				<label class="choose-sex">Masculino</label>
+			</span>
+			<span>
+				<p>Clicando em criar conta você concorda com os nossos <a href="#">Termos</a> e com a nossa <a href="#">Politica de dados</a> incluindo o uso de <a href="#">Uso de cookies</a>.
+			</span>
+			<br>
+			<button type="submit" form="form1" value="Submit">Criar conta</button>
+			<br>
+			<a href="#">Criar uma página</a> para celebridades, bandas ou negócios.
+		</div>
+	</div>
+	<div class="pageFooter">
+		<ul>
+			<li> <a href="#">English (US)</a></li>
+			<li> <a href="#">Português (Brasil)</a></li>
+			<li> <a href="#">Español</a></li>
+			<li> <a href="#">Français (France)</a></li>
+			<li> <a href="#">Italiano</a></li>
+			<li> <a href="#">Deutsch</a></li>
+			<li> <a href="#">العربية</a></li>
+			<li> <a href="#">हिन्दी	</a></li>
+			<li> <a href="#">中文(简体)	</a></li>
+			<li> <a href="#">…</a></li>
+		</ul>
+		<table>
+			<tbody>
+				<tr>
+					<td><a href="#">Sign Up</td>
+					<td><a href="#">Log In</td>
+					<td><a href="#">Messenger</td>
+					<td><a href="#">Rostobook Lite</td>
+					<td><a href="#">Mobile</td>
+					<td><a href="#">Encontrar Amigos</td>
+					<td><a href="#">Emblemas</td>
+					<td><a href="#">Pessoas</td>
+					<td><a href="#">Lugares</td>
+					<td><a href="#">Jogos</td>
+				</tr>
+				<tr>
+					<td><a href="#">Localização</td>
+					<td><a href="#">Celebridades</td>
+					<td><a href="#">Grupos</td>
+					<td><a href="#">Sobre</td>
+					<td><a href="#">Criar Ads</td>
+					<td><a href="#">Criar Página</td>
+					<td><a href="#">Desenvolvedores</td>
+					<td><a href="#">Carreiras</td>
+					<td><a href="#">Privacidade</td>
+					<td><a href="#">Cookies</td>
+					<td><a href="#">Ad Choices</td>
+				</tr>
+				<tr>
+					<td><a href="#">Termos</td>
+					<td><a href="#">Ajuda</td>
+				</tr>
+			</tbody>
+		</table>
+		Rostobook © 2016
+	</div>
 </body>
 </html>
